@@ -180,7 +180,7 @@ CRIX_VGC_10 (
 	i_OPN_OK:= bVGC_10_OPN_OK, 
 	i_CLS_OK:= bVGC_10_CLS_OK, 
 	ibCntrlHold:= FALSE , 
-	i_xOverrideMode:= xSystemOverride_ChemRIXS, 
+	i_xOverrideMode:= , 
 	iq_stValve=> );
 	
 (* ual acting valve, allow to close when motor is at OUT limit switch*, Open interlock pending for requirements *)
@@ -192,7 +192,7 @@ CRIX_VGC_11(
 	i_OPN_OK:= bVGC_11_OPN_OK, 
 	i_CLS_OK:= bVGC_11_CLS_OK, 
 	ibCntrlHold:= FALSE , 
-	i_xOverrideMode:= xSystemOverride_ChemRIXS, 
+	i_xOverrideMode:= , 
 	iq_stValve=> );	
 (*cold trap roughing valve, Open interlock pending for requirements*)
 
